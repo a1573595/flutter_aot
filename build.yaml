@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      slang_build_runner:
+        options:
+          autodoc:
+            enabled: false
+          base_locale: en_US
+          fallback_strategy: base_locale_empty_string
+          input_directory: assets/i18n
+          output_directory: lib/common/gen
+          sanitization:
+            enable: true
+            case: snake
+          translation_overrides: true
