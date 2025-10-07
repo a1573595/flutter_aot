@@ -31,6 +31,6 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final t = Translations.of(context);
 
-    return Scaffold(body: Center(child: Text(t.babowu_gilox)));
+    return Scaffold(body: Center(child: Text(t.dalim_xol)));
   }
 }
